@@ -16,11 +16,11 @@ lang: en
 timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
+#  
 
-title: YanXin's home                        # the main title
+title: 秋雨啾啾                       # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 关于学习生活   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -43,7 +43,7 @@ social:
   email: yanxin@suiba.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    - https://twitter.com/yanxitang2c      # change to your twitter homepage
     - https://github.com/tang-yx       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -162,10 +162,12 @@ exclude:
   - package.json
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories, ecnomic, tags]
   layouts:
     category: category
+    ecnomic: ecnomic
     tag: tag
   permalinks:
     tag: /tags/:name/
+    ecnomic: /ecnomic/:name/
     category: /categories/:name/
